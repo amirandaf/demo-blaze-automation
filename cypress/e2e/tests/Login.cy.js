@@ -3,7 +3,7 @@ const PASSWORD = '123'
 const WRONG_PASSWORD = '1234'
 const loginPage = require('../pageObjects/LoginPage');
 
-describe('template spec', () => {
+describe('Login Test Cases', () => {
   
   beforeEach(() => {
     cy.visit('https://www.demoblaze.com/index.html')
